@@ -1,0 +1,15 @@
+server:
+  port: 3033
+
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Postus1814
+    driverClassName: org.postgresql.Driver
